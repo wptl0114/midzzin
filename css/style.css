@@ -1,0 +1,560 @@
+@keyframes opacityFirst {
+0% {
+        opacity: 0
+    }
+
+    1% {
+        opacity: 0
+    }
+
+
+    2% {
+        opacity: 1
+    }
+
+        3% {
+        opacity: 1
+    }
+
+
+        7% {
+          opacity: 1
+    }
+   
+           10% {
+          opacity: 0
+    }
+   
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacitySecond {
+0% {
+        opacity: 0
+    }
+
+2% {
+        opacity: 0
+    }
+
+    4% {
+        opacity: 1
+    }
+
+    5% {
+          opacity: 1
+
+    }     
+
+        7% {
+          opacity: 1
+    }
+   
+           10% {
+          opacity: 0
+    }
+   
+
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityThird {
+
+0% {
+        opacity: 0
+    }
+    4% {
+        opacity: 0
+    }
+
+    6% {
+        opacity: 1
+    }
+
+    7% {
+          opacity: 1
+    }        
+
+        10% {
+          opacity: 0
+    }
+   
+    100% {
+          opacity: 0
+    }
+}
+
+@keyframes opacityback {
+    0% {
+        opacity: 0
+    }
+
+    5% {
+        opacity: 0
+    }
+
+    8% {
+          opacity: 1
+    }        
+
+    100% {
+          opacity: 1
+    }
+}
+
+@keyframes opacityfourth {
+    0% {
+        opacity: 0
+    }
+
+6% {
+        opacity: 0
+    }
+
+
+    10% {
+        opacity: 1
+    }
+
+    60% {
+          opacity: 1
+    }        
+
+    100% {
+          opacity: 1
+    }
+}
+
+
+@keyframes opacitybat {
+    0% {
+        opacity: 0
+    }
+
+    5% {
+        opacity: 0
+    }
+
+    8% {
+          opacity: 1
+    }        
+
+    100% {
+          opacity: 1
+    }
+}
+
+@keyframes opacityjok {
+    0% {
+        opacity: 0
+    }
+
+    15% {
+          opacity: 0
+    }        
+
+    20% {
+          opacity: 1
+    }   
+
+    30% {
+          opacity: 0
+    }  
+
+    35% {
+          opacity: 0
+    }  
+
+    40% {
+          opacity: 1
+    }
+
+    45% {
+          opacity: 0
+    }
+
+    50% {
+          opacity: 1
+    }
+
+    53% {
+          opacity: 0
+    }
+
+
+    54% {
+          opacity: 1
+    }
+
+    56% {
+          opacity: 0
+    }
+
+    57% {
+          opacity: 1
+    }
+
+    58%{
+          opacity: 0
+    }
+
+    70%{ 
+        opacity: 1
+    }
+
+    75%{ 
+        opacity: 0
+    }
+
+    80%{ 
+        opacity: 1
+    }
+
+    83%{ 
+        opacity: 0
+    }
+
+    89%{ 
+        opacity: 1
+    }
+
+
+        100% {
+          opacity: 0
+    }
+
+
+}
+
+@keyframes textcolor {
+    0% {
+        color:#3CA0E1
+    }
+
+    15% {
+        color:#3CA0E1
+    }        
+
+    20% {
+        color:#A52A2A
+    }   
+
+    30% {
+        color:#3CA0E1
+    } 
+
+    35% {
+        color:#3CA0E1
+    }  
+
+    40% {
+          color:#A52A2A
+    }
+
+    45% {
+        color:#3CA0E1
+    }
+
+    50% {
+          color:#A52A2A
+    }
+
+    53% {
+        color:#3CA0E1
+    }
+
+
+    60% {
+          color:#A52A2A
+    }
+
+    75% {
+        color:#3CA0E1
+    }
+
+    80% {
+          color:#A52A2A
+    }
+
+    83%{
+        color:#3CA0E1
+    }
+
+        100% {
+        color:#3CA0E1
+    }
+
+
+}
+
+
+@keyframes movelight{
+    9% {transform: rotate(0deg); transform-origin: right bottom;}
+
+    20% {transform: rotate(10deg); transform-origin: right bottom;}
+
+    30% {transform: rotate(-5deg); transform-origin: right bottom;}
+
+    40% {transform: rotate(10deg); transform-origin: right bottom;}
+
+    50% {transform: rotate(-5deg); transform-origin: right bottom;}
+
+    60% {transform: rotate(10deg); transform-origin: right bottom;}
+
+    70% {transform: rotate(-5deg); transform-origin: right bottom;}
+
+    80% {transform: rotate(10deg); transform-origin: right bottom;}
+
+    90% {transform: rotate(-5deg); transform-origin: right bottom;}
+
+    100% {transform: rotate(0deg); transform-origin: right bottom;}
+}
+
+
+
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: -2;
+}
+
+.backlight{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityFirst;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+        z-index: 1;
+
+}
+
+.middlelight{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacitySecond;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+        z-index: 1;
+}
+
+.inlight{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityThird;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+        z-index: 1;
+}
+
+
+.bat{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityThird;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    top: 7.4%;
+    left: 0.7%;
+        z-index: 1;
+}
+
+.jok{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok,movelight;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: 1;
+}
+
+.light2{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityfourth,movelight;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: 1;
+}
+
+.redline {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: 6;
+left: 10.5%;
+bottom: 3.5%;
+}
+
+
+.title{
+    width: 25%;
+    height: 5%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityback;
+    animation-duration: 55s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    left:4%; bottom:8%;
+        z-index: 5;
+}
+
+.text{
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityback;
+    animation-duration: 55s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+        z-index: 5;
+}
+
+.text2{
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: infinite;
+        z-index: 6;
+}
+
+.back2{   
+ width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityback;
+    animation-duration: 55s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    z-index: -1;
+
+}
+
+.back3{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: -1;
+}
+
+
+.batman { 
+    width: 19.5%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: 37.6%;
+    right: 11.2%;
+    animation-name: opacitybat;
+    animation-duration: 55s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+        z-index: 10;
+
+
+}
+
+.batman2 { 
+    width: 19.5%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: 37.6%;
+    right: 11.2%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: 10;
+}
+
+.joker { 
+    width: 7%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: 43%;
+    right: 5%;
+    display: inline-block;
+    position: fixed;
+    animation-name: opacityjok;
+    animation-duration: 50s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+        z-index: 10;
+
+}
+
+
+
+.struck { 
+    width: 38%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    top: 54.7%;
+    right: -0.5%;
+    animation-name: opacitybat;
+    animation-duration: 55s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    z-index: 10;
+
+}
+
+
+.logo { 
+    width: 23%;
+    height: auto;
+    position: fixed;
+    display: inline-block;
+    bottom: 0%;
+    left: -0.5%;
+
+}
+
